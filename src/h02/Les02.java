@@ -7,13 +7,16 @@ public class Les02 extends Applet {
     @Override
     public void init() {
         super.init();
-        setBackground(Color.blue);
+        setBackground(Color.white);
     }
 
     @Override
     public void paint (Graphics g) {
         super.paint(g);
-        g.setColor(Color.yellow);
-        g.drawString("Josh Kumar", 50, 60);
+        g.setColor(Color.blue);
+        g.drawString("Josh", 50, 60);
+        super.paint(g);
+        g.setColor(Color.red);
+        g.drawString("Kumar", 80, 60);
     }
 }
