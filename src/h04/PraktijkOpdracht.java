@@ -4,6 +4,8 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class PraktijkOpdracht extends Applet {
+
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
