@@ -7,16 +7,14 @@ public class Opdracht3 extends Applet {
 
     public void paint(Graphics g) {
         int getal = 1;
+        int getal2= 1;
         int x = 10;
-        int getal1 =1;
 
-        while (getal < 10000000){
-            x += 40;
-            getal += getal1;
-            getal1+=getal:
-
-            g.drawString(""+getal+""+getal1,x,10);
-
+        while (getal < 90) {
+            x += 50;
+            g.drawString("" + getal + " " + getal2,x,20);
+            getal += getal2;
+            getal2 += getal;
         }
     }
 }
