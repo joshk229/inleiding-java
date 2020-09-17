@@ -38,4 +38,11 @@ public class Opdracht1 extends Applet {
 
         }
     }
+
+    public static class Tekstvaklistner implements ActionListener {
+        
+        public void actionPerformed(ActionEvent e) {
+
+        }
+    }
 }
