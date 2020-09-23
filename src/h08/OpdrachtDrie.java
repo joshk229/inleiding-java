@@ -6,16 +6,12 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class OpdrachtDrie extends Applet {
-
-    //Declaratie
     double Bedrag;
     TextField Tekstvak;
     Button Knop;
     Label Label;
 
     public void init() {
-
-        //Initalisatie
         Bedrag = 0;
         Label = new Label("€");
         Knop = new Button("Geef prijs weer");
