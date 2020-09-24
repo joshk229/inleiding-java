@@ -7,25 +7,26 @@ import java.net.*;
 import java.util.Random;
 
 public class Opdracht2 extends Applet {
-    String vorm[] = {"Harten", "Schoppen", "Klaver", "Ruiten"};
-    String betekenis[] = {"Aas", "Twee", "Drie", "Vier", "Vijf", "Zes", "Zeven", "Acht", "Negen", "Tien", "Boer", "Vrouw", "Heer"};
-    String spel[];
-    Button verdelen;
+    String[] vorm = {"Harten", "Schoppen", "Klaver", "Ruiten"};
+    String[] betekenis = {"Aas", "Twee", "Drie", "Vier", "Vijf", "Zes", "Zeven", "Acht", "Negen", "Tien", "Boer", "Vrouw", "Heer"};
+    String[] spel;
+    Button delen;
+
+    private AudioClip sound;
+    private URL pad;
 
     boolean[] help;
     int start = 0;
 
-    URL path;
-    AudioClip applaus;
 
     public void init() {
         setSize(500, 300);
-        path = Opdracht2.class.getResource("/H014/resources/");
-        applaus = getAudioClip(path, "applaus.wav");
+        pad= Opdracht2.class.getResource("/H014/resources/");
+        sound = getAudioClip(pad, "applaus.wav");
 
-        verdelen = new Button("Deel!");
-        verdelen.addActionListener(new VerdeelListener());
-        add(verdelen);
+        delen = new Button("Deel kaarten.");
+        delen.addActionListener(new VerdeelListener());
+        add(delen);
 
         spel= new String[52];
         help = new boolean[52];
@@ -82,11 +83,11 @@ public class Opdracht2 extends Applet {
     }
 
     private class VerdeelListener implements ActionListener {
+        @Override
         public void actionPerformed(ActionEvent e) {
             Random(spel);
             repaint();
-            applaus.play();
+            sound.play();
         }
     }
 }
-
