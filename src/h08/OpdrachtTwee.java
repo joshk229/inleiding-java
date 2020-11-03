@@ -5,8 +5,6 @@ import java.applet.*;
 import java.awt.event.*;
 
 public class OpdrachtTwee extends Applet {
-
-    //Declaratie Knoppen
     TextField Tekstvak;
     Button BM;
     Button BV;
@@ -27,8 +25,6 @@ public class OpdrachtTwee extends Applet {
 
     public void init() {
         setSize(800,175);
-
-        //Initalisatie Variabelen
         DM = 0;
         SM = Double.toString(DM);
         DV = 0;

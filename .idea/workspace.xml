@@ -19,12 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b7601ef-3bc2-4e06-9c96-7a7371299ea0" name="Default Changelist" comment="h14 update">
-      <change afterPath="$PROJECT_DIR$/src/h14/ resources/applaus.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/ resources/smiley" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h14/Praktijkopdracht.java" afterDir="false" />
+    <list default="true" id="7b7601ef-3bc2-4e06-9c96-7a7371299ea0" name="Default Changelist" comment="h14 klaar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h04/Staafdiagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h04/Staafdiagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h08/OpdrachtTwee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/OpdrachtTwee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h08/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/Praktijkopdracht.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h10/Opdracht5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/Opdracht5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h13/Opdracht3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h13/Opdracht3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h14/ resources/applaus.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/resources/applaus.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h14/ resources/smileys" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/resources/smiley.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h14/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/Opdracht2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h14/Praktijkopdracht.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/Praktijkopdracht.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,16 +63,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/h14/ resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
       <recent name="$PROJECT_DIR$/src/h14/ resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Applet.Praktijkopdracht (1)">
+  <component name="RunManager" selected="Applet.Opdracht2">
     <configuration name="Driehoek" type="Applet" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h04.Driehoek" />
       <module name="inleiding-java" />
@@ -96,29 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opdracht9" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Opdracht9" />
+    <configuration name="Opdracht3" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.Opdracht3" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Praktijkopdracht (1)" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h14.Praktijkopdracht" />
+    <configuration name="Opdracht5" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h10.Opdracht5" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Praktijkopdracht" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Praktijkopdracht" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Praktijkopdracht2" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Praktijkopdracht2" />
+      <option name="MAIN_CLASS_NAME" value="h14.Praktijkopdracht" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,6 +128,13 @@
     </configuration>
     <configuration name="Staafdiagram" type="Applet" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h04.Staafdiagram" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h14.Test" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.Praktijkopdracht (1)" />
         <item itemvalue="Applet.Opdracht2" />
-        <item itemvalue="Applet.Opdracht9" />
         <item itemvalue="Applet.Praktijkopdracht" />
-        <item itemvalue="Applet.Praktijkopdracht2" />
+        <item itemvalue="Applet.Opdracht3" />
+        <item itemvalue="Applet.Test" />
+        <item itemvalue="Applet.Opdracht5" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +192,19 @@
       <workItem from="1600680416474" duration="1560000" />
       <workItem from="1600756934817" duration="1719000" />
       <workItem from="1600849125327" duration="638000" />
-      <workItem from="1600933314110" duration="3334000" />
+      <workItem from="1600933314110" duration="8113000" />
+      <workItem from="1601384402003" duration="327000" />
+      <workItem from="1601384741128" duration="16000" />
+      <workItem from="1601385863892" duration="2387000" />
+      <workItem from="1601449769242" duration="112000" />
+      <workItem from="1601449922416" duration="76000" />
+      <workItem from="1601450253145" duration="114000" />
+      <workItem from="1601992099978" duration="68000" />
+      <workItem from="1601992230690" duration="323000" />
+      <workItem from="1601992947381" duration="15000" />
+      <workItem from="1603352893252" duration="144000" />
+      <workItem from="1603810255290" duration="239000" />
+      <workItem from="1604410929016" duration="867000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599225540053</created>
@@ -318,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600852606823</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="h14 klaar">
+      <created>1600937378096</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1600937378096</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,7 +382,8 @@
     <MESSAGE value="h12 af" />
     <MESSAGE value="h13 af" />
     <MESSAGE value="h14 update" />
-    <option name="LAST_COMMIT_MESSAGE" value="h14 update" />
+    <MESSAGE value="h14 klaar" />
+    <option name="LAST_COMMIT_MESSAGE" value="h14 klaar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599547295265">
@@ -362,6 +391,11 @@
     </state>
     <state x="184" y="77" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1599547295265" />
     <state x="184" y="93" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1599462219007" />
+    <state x="429" y="255" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601387552449">
+      <screen x="0" y="23" width="1440" height="807" />
+    </state>
+    <state x="429" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1601386282277" />
+    <state x="429" y="255" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.807@0.23.1440.807" timestamp="1601387552449" />
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1600250133059">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -378,26 +412,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1599824035172" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1600937231557">
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom" timestamp="1604411913546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1600937231557" />
-    <state width="1193" height="206" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1600328023055" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1600937231556">
+    <state width="1398" height="196" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604411913546" />
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.807@0.23.1440.807" timestamp="1601992557635" />
+    <state width="1379" height="196" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1604411640411" />
+    <state width="1398" height="196" key="GridCell.Tab.0.center" timestamp="1604411913545">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1600937231556" />
-    <state width="1193" height="206" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1600328023054" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1600937231556">
+    <state width="1398" height="196" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604411913545" />
+    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.807@0.23.1440.807" timestamp="1601992557634" />
+    <state width="1379" height="196" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1604411640410" />
+    <state width="1398" height="196" key="GridCell.Tab.0.left" timestamp="1604411913545">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1600937231556" />
-    <state width="1193" height="206" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1600328023053" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1600937231557">
+    <state width="1398" height="196" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604411913545" />
+    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.807@0.23.1440.807" timestamp="1601992557634" />
+    <state width="1379" height="196" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1604411640409" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right" timestamp="1604411913546">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1600937231557" />
-    <state width="1193" height="206" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1600328023054" />
+    <state width="1398" height="196" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604411913546" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.807@0.23.1440.807" timestamp="1601992557634" />
+    <state width="1379" height="196" key="GridCell.Tab.0.right/0.23.1440.822@0.23.1440.822" timestamp="1604411640410" />
     <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1600162603345">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -422,10 +460,10 @@
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="221" y="70" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1599461932118" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1600852610111">
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1600937382160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600852610111" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600937382160" />
     <state x="320" y="171" key="Vcs.Push.Dialog.v2/0.23.1440.821@0.23.1440.821" timestamp="1599225557127" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599467583275">
       <screen x="0" y="0" width="1440" height="900" />

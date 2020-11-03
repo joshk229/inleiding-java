@@ -65,8 +65,6 @@ public class Opdracht3 extends Applet {
     }
 
     void betonMuur(Graphics g, int x, int y, int ww, int wh) {
-
-        //Opmaak
         g.setColor(new Color(50, 50, 50));
         g.fillRect(x, y, ww, wh);
         g.setColor(new Color(130, 125, 120));

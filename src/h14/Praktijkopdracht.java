@@ -6,6 +6,8 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Praktijkopdracht extends Applet {
+
+
     Image smiley;
     URL path;
     Button play;
@@ -21,11 +23,11 @@ public class Praktijkopdracht extends Applet {
     String tekst2 = "Voer 1,2 of 3 in en druk op play!";
 
     public void init() {
+
         setSize(500,500);
         tekst1 = tekst2;
-        path = Praktijkopdracht.class.getResource("/H014/resources/");
-        smiley = getImage(path, "smileys.png");
-
+        path = Praktijkopdracht.class.getResource("/h14/resources/");
+        smiley = getImage(path, "smiley.jpeg");
         play = new Button("Play");
         reset = new Button("Reset");
         tekstveld = new TextField("",10);
@@ -41,6 +43,7 @@ public class Praktijkopdracht extends Applet {
         g.drawString(tekst1,70,50);
         for (int i = 0; i < smileys; i++) {
             g.drawImage(smiley, 100 + 50 * (i % 4), 100 + 50 * (i / 4), 50, 50, this);
+        
         }
     }
 
@@ -129,16 +132,18 @@ public class Praktijkopdracht extends Applet {
 
                 turn = true;
                 smileys-=userplay;
-                if(smileys <= 0 && !gameover) {
-                    lost = true;
-                    gameover = true;
+                if(smileys <= 0 && gameover == false) {
+                    if(true == true) {
+                        lost = true;
+                        gameover = true;
+                    }
                 }
 
 
 
                 turn = false;
                 smileys-=bot;
-                if(smileys <= 0 && !gameover) {
+                if(smileys <= 0 && gameover == false) {
                     lost = false;
                     gameover = true;
                 }
@@ -152,8 +157,8 @@ public class Praktijkopdracht extends Applet {
 
 
 
-            if(gameover) {
-                if(lost) {
+            if(gameover==true) {
+                if(lost == true) {
                     tekst1 = "Winner!";
                 }else {
                     tekst1 = "Loser!";

@@ -19,8 +19,6 @@ public class Praktijkopdracht extends Applet {
 
     public void init() {
         setSize(750,100);
-
-        //Initalisatie
         T1 = 0.0;
         T2 = 0.0;
         Uitkomst = 0.0;

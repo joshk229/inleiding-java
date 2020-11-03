@@ -13,7 +13,9 @@ public class Opdracht2 extends Applet {
     Button delen;
 
     private AudioClip sound;
+    private AudioClip sound2;
     private URL pad;
+    private URL pad2;
 
     boolean[] help;
     int start = 0;
@@ -21,8 +23,12 @@ public class Opdracht2 extends Applet {
 
     public void init() {
         setSize(500, 300);
-        pad= Opdracht2.class.getResource("/H014/resources/");
+        pad= Opdracht2.class.getResource("/h14/resources/");
+
         sound = getAudioClip(pad, "applaus.wav");
+        System.out.println(sound);
+
+        System.out.println(sound.toString());
 
         delen = new Button("Deel kaarten.");
         delen.addActionListener(new VerdeelListener());
@@ -69,6 +75,9 @@ public class Opdracht2 extends Applet {
                 b++;
             }
         }
+        System.out.println("JA");
+
+        sound.play();
     }
 
     public static void Random(String[] randomize) {
@@ -83,11 +92,11 @@ public class Opdracht2 extends Applet {
     }
 
     private class VerdeelListener implements ActionListener {
-        @Override
         public void actionPerformed(ActionEvent e) {
             Random(spel);
+            //repaint();
+
             repaint();
-            sound.play();
         }
     }
 }
